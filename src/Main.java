@@ -29,7 +29,7 @@ public class Main {
         if (bank.doTransaction(joe.getCustomerId(), BankAccount.AccountType.CHECKING, -30)){
             System.out.println(joe);
         }
-//test
+//testtt
 
         BankAccount checking = joe.getAccount(BankAccount.AccountType.CHECKING);
         var transactions = checking.getTransactions();
